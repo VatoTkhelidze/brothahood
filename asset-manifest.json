@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/brothahood/static/js/main.4b5809b5.js",
+    "main.js": "/brothahood/static/js/main.8d0d4872.js",
     "index.html": "/brothahood/index.html",
-    "main.4b5809b5.js.map": "/brothahood/static/js/main.4b5809b5.js.map"
+    "main.8d0d4872.js.map": "/brothahood/static/js/main.8d0d4872.js.map"
   },
   "entrypoints": [
-    "static/js/main.4b5809b5.js"
+    "static/js/main.8d0d4872.js"
   ]
 }
