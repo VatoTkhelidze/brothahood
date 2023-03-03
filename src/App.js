@@ -8,6 +8,9 @@ function App() {
           src="./assets/bondmeister.png"
           alt="bondmeister_picture"
         />
+        <BondmeisterInfo>
+          <Name>Bondmeister</Name>
+        </BondmeisterInfo>
       </Bondmeister>
       <Melekh>
         <MelekhImg src="./assets/melekh.png" alt="melekh_picture" />
@@ -18,6 +21,13 @@ function App() {
     </SadzmoContainer>
   );
 }
+
+const Name = styled.span`
+  font-size: 20px;
+`;
+
+const BondmeisterInfo = styled.div``;
+
 const KuklaImg = styled.img`
   width: 100px;
   border-radius: 50%;
@@ -60,6 +70,8 @@ const BondmeisterImg = styled.img`
 `;
 
 const Bondmeister = styled.div`
+  display: flex;
+  gap: 20px;
   width: 100%;
 `;
 
