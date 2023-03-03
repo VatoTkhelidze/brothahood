@@ -9,24 +9,33 @@ function App() {
           alt="bondmeister_picture"
         />
         <BondmeisterInfo>
-          <Name>Bondmeister</Name>
+          <Name>ბონდმეისტერი</Name>
         </BondmeisterInfo>
       </Bondmeister>
       <Melekh>
+        <MelekhInfo>
+          <Name>მელეხი</Name>
+        </MelekhInfo>
         <MelekhImg src="./assets/melekh.png" alt="melekh_picture" />
       </Melekh>
       <Kukla>
         <KuklaImg src="./assets/kukla.png" alt="kukla_picture" />
+        <KuklaInfo>
+          <Name>კუკლა</Name>
+        </KuklaInfo>
       </Kukla>
     </SadzmoContainer>
   );
 }
+const KuklaInfo = styled.div``;
+
+const MelekhInfo = styled.div``;
+
+const BondmeisterInfo = styled.div``;
 
 const Name = styled.span`
   font-size: 20px;
 `;
-
-const BondmeisterInfo = styled.div``;
 
 const KuklaImg = styled.img`
   width: 100px;
@@ -39,12 +48,15 @@ const KuklaImg = styled.img`
 `;
 
 const Kukla = styled.div`
-  width: 100px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
 `;
 
 const Melekh = styled.div`
   display: flex;
   justify-content: flex-end;
+  gap: 20px;
   width: 100%;
 `;
 
