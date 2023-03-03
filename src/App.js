@@ -5,15 +5,15 @@ function App() {
     <SadzmoContainer>
       <Bondmeister>
         <BondmeisterImg
-          src="/assets/bondmeister.png"
+          src="./assets/bondmeister.png"
           alt="bondmeister_picture"
         />
       </Bondmeister>
       <Melekh>
-        <MelekhImg src="/assets/melekh.png" alt="melekh_picture" />
+        <MelekhImg src="./assets/melekh.png" alt="melekh_picture" />
       </Melekh>
       <Kukla>
-        <KuklaImg src="/assets/kukla.png" alt="kukla_picture" />
+        <KuklaImg src="./assets/kukla.png" alt="kukla_picture" />
       </Kukla>
     </SadzmoContainer>
   );
