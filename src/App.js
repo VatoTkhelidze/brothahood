@@ -5,7 +5,7 @@ function App() {
     <SadzmoContainer>
       <Bondmeister>
         <BondmeisterImg
-          src="./assets/bondmeister.png"
+          src="./assets/sadzmoImages/bondmeister.png"  
           alt="bondmeister_picture"
         />
         <BondmeisterInfo>
@@ -16,10 +16,10 @@ function App() {
         <MelekhInfo>
           <Name>მელეხი</Name>
         </MelekhInfo>
-        <MelekhImg src="./assets/melekh.png" alt="melekh_picture" />
+        <MelekhImg src="./assets/sadzmoImages/melekh.png" alt="melekh_picture" />
       </Melekh>
       <Kukla>
-        <KuklaImg src="./assets/kukla.png" alt="kukla_picture" />
+        <KuklaImg src="./assets/sadzmoImages/kukla.png" alt="kukla_picture" />
         <KuklaInfo>
           <Name>კუკლა</Name>
         </KuklaInfo>
@@ -35,6 +35,7 @@ const BondmeisterInfo = styled.div``;
 
 const Name = styled.span`
   font-size: 20px;
+  font-family: 'Najgabni';
 `;
 
 const KuklaImg = styled.img`
